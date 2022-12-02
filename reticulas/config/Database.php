@@ -25,8 +25,8 @@ class Database{
   }
 
   private function getHost(){
-    if(isset($_ENV['DB_HOST']))
-      return $_ENV['DB_HOST'];
+    if(isset($_ENV['BD_RETICULAS_SERVICE_HOST']))
+      return $_ENV['BD_RETICULAS_SERVICE_HOST'];
     else return 'localhost';
   }//function
 
